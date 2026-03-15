@@ -13,7 +13,7 @@ license=('LicenseRef-Focaltech-Proprietary')
 install=${pkgname}.install
 
 sourcefile="libfprint-2-2_1.94.4+tod1_suse_all_x64_20250219.install"
-source=("https://github.com/ftfpteams/focaltech-linux-fingerprint-driver/raw/refs/heads/main/Fedora_Redhat/${sourcefile}")
+source=("https://gist.githubusercontent.com/nicognaW/a3ea3a45c45328891bf30a0f64ef1522/raw/e23eb8b130390307c3e2003619e42ebbbb4b33ca/${sourcefile}")
 sha512sums=('4a4fa224fe3641e03cabe3a53da79f439671dd91c83b6b194256b915e985c055ade8f4e4226813f80614fdad6b1edff4477664984c5c996049b04cc8503a8d99')
 
 package(){
